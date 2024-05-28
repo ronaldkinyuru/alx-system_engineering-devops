@@ -47,5 +47,5 @@ frontend kinyuru-frontend-https
 
 backend kinyuru-backend
         balance roundrobin
-        server 13272-web-01 54.89.182.83 check
-        server 13272-web-02 54.146.91.105 check
+        server 13272-web-01 54.146.74.212:80 check
+        server 13272-web-02 52.91.125.169:80 check
